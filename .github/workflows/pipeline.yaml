@@ -13,10 +13,10 @@ env:
   PIPELINE_USER_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   PIPELINE_USER_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   SAM_TEMPLATE: sam-app/template.yaml
-  TESTING_STACK_NAME: sam-app-DEV
-  TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::824340209398:role/aws-sam-cli-managed-DEV-pipe-PipelineExecutionRole-1GW8FAEKCASLM
-  TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::824340209398:role/aws-sam-cli-managed-DEV-p-CloudFormationExecutionR-1FL7KA0UKFC8R
-  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-dev-pipeline-artifactsbucket-2mqnjjtzeknj
+  TESTING_STACK_NAME: sam-app-dev
+  TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::824340209398:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-1LCYN7IO878KO
+  TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::824340209398:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-TQKTF90DR53I
+  TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-dev-pipeline-artifactsbucket-1x30spklv79hz
   # If there are functions with "Image" PackageType in your template,
   # uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
   # testing "sam package" and "sam deploy" commands.
