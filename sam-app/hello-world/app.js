@@ -1,4 +1,4 @@
-// const axios = require('axios')
+// const axios = require('axios') 2
 // const url = 'http://checkip.amazonaws.com/';
 let response;
 
